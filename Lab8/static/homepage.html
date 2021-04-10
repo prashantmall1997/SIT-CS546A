@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Show Finder</title>
+
+    <link rel="stylesheet" href="/public/site.css" />
+  </head>
+  <body>
+    <h1 id="homeHeading">Show Finder</h1>
+    <main>
+      <p id="homeDescription">
+        Welcome to Show Finder! This website, with the use of tvmaze API,
+        provides you with a simple TV search engine. <br /><br />Go ahead
+        explore 📺
+      </p>
+
+      <form id="form" method="POST" action="/search">
+        <label for="showInput">Search Show:</label><br />
+        <input type="text" id="showInput" name="searchTerm" /><br />
+        <input id="button" type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
