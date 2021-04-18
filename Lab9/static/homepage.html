@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fibonacci & Prime Number Checker</title>
+    <link rel="stylesheet" href="/public/css/main.css" />
+  </head>
+  <body>
+    <header><h1>Fibonacci & Prime Number Checker</h1></header>
+
+    <main>
+      <div id="error" class="error" hidden>I'm an error</div>
+
+      <form method="POST" id="myForm">
+        <label id="formLabel" for="number_input">
+          Enter Number:
+          <input
+            type="number"
+            name="numberInput"
+            id="number_input"
+            autocomplete="off"
+          />
+        </label>
+
+        <button type="submit">Add</button>
+      </form>
+
+      <h2 id="listHeading" hidden>Results:</h2>
+      <ul id="results" hidden></ul>
+    </main>
+
+    <footer>
+      Prashant Mall 10459371 <br />
+      Spring 21 Student
+    </footer>
+
+    <script src="/public/js/main.js"></script>
+  </body>
+</html>

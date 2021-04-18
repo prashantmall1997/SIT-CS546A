@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  font: small-caps bold 75px/1 sans-serif;
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 5;
+  color: rgb(8, 18, 102);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font: small-caps bold 50px/1 sans-serif;
+  color: rgb(255, 0, 128);
+}
+
+#myForm {
+  font: caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0% 10% 10% 10%;
+}
+
+input {
+  width: 25%;
+  height: 35px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+button {
+  background: #0066a2;
+  margin-top: 15px;
+  color: white;
+  border-style: outset;
+  height: 50px;
+  width: 100px;
+  font: 15px sans-serif;
+}
+
+#results,
+#formLabel,
+#listHeading {
+  color: #ffc400;
+  font: caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0% 10% 10% 10%;
+}
+
+.is-prime {
+  color: #00e676;
+}
+
+.not-prime {
+  color: #ff3d00;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.inputClass {
+  border: 3px solid red;
+
+  background-color: #eee;
+}
